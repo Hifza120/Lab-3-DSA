@@ -2,6 +2,7 @@
 using namespace std;
 template<typename T>
 class List{
+protected:
 	T *arr;
 	int maxSize;
 	int currentSize;
